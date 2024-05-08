@@ -80,6 +80,9 @@ public class ILController{
     public ResponseEntity<Il> createIl(@RequestBody Il newIl){
         return new ResponseEntity<>(ilService.createIl(newIl),CREATED);
     }
+
+
+
     @PutMapping("/{id}") //http://localhost:8080/iller/16 -> update için kullanılır
     public ResponseEntity<Void> getIl (@PathVariable String id, @RequestBody Il newIl){
 
