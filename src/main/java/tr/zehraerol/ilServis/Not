@@ -1,0 +1,68 @@
+Proje notlarım
+
+Controller classı ve repository classı olusturdu.
+Db de varsayıp Restcontroller olduguna daır annotaın kullandı Spring boot oldugu ıcın.
+Spring boota dıyorum kı controlller da bu benım rest api yazacagım sayfa
+---(REST (Representational State Transfer), web tabanlı uygulamalar arasında iletişim kurmak için kullanılan)
+---(REST API (RESTful API), bu mimariyi kullanarak sunulan bir web servisidir.)
+
+Request mappıng yazma sebebım url de proje ıle ılıskılı olması ıcın yazıyorz.
+AllARGSConstructor parametrelı paratmesız hepsını ıcerır
+
+controllerda yaptıgımız sey kullanıcı ıle muhattap oldugumuz sayfa
+işlem yapılan kodları servıse yazıyoruz
+controller kısmına clean kod yazılır ayrıntı verılır
+ayrıntılı kod yazılmaz.
+
+-----GET İLLER METHODU---
+get mapıng ıle verı cekıyoruz db den mysql den jsondan
+
+---model dıye bır entıty sayfam var burda lombook kutuphanesını kullanıoyrum bu benım objem burda oynuyorum
+isimle cagırabılmek ıcın requestparam verdık
+--ResponseEntiy: bu entıty status donmesı ıcın tepkı vermesı ıcın buldugunda ılı bulmaıdıgnda hata donduren Spring boot yapısı
+--
+servis sayfam yoksa yoruma aldıgım ıller cıkar postmanda
+--
+repository ıle controller bırlıkte ılıskıye gıremez reposıtory guvenlık ıcın,
+araya bır servıs gırmelı logıc ıslemlerının yer
+
+------getler: almak ıcın-----
+------postlar:olusturmak ıcın------
+------putlar:değiştirmek ıcın-------
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
